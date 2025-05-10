@@ -13,6 +13,8 @@
 
 body, html {font-family: "Montserrat", Arial, Helvetica, sans-serif; line-height: 1; overflow-x: hidden; }
 
+
+
 body {background-color: var(--quinary-color)}
 
 
@@ -49,7 +51,7 @@ h1, h2, h3 { color: var(--quaternary-color)}
 h1 {font-size: 44px;}
 h2 {font-size: 32px;}
 h3 {font-size: 20px;}
-p { font-size: 12px;}
+p { font-size: 12px; color: var(--quaternary-color)}
 a { font-size: 14px; text-decoration: none; color: var(--quaternary-color);}
 
 /*==================GENERAL==================*/
@@ -60,7 +62,7 @@ header {padding: 10px 20px;}
 
 main {padding: 0 40px;}
 
-footer {padding: 0 20px;}
+footer {padding: 0 40px 20px 40px; margin-bottom: 0;}
 
 /* span space */
 
@@ -74,6 +76,10 @@ footer {padding: 0 20px;}
 
 .in-flex{display:flex; flex-shrink:0; overflow: hidden;}
 .in-line{display:flex; justify-content: space-between; align-items: center;}
+.in-colonna{display: flex; flex-direction: column; align-items: left; gap:10px;}
+.social-media{display: flex; justify-content: right; align-items: center; gap: 20px;}
+.al-centro{display: flex; justify-content: center; align-items: center;}
+
 
 .col-100 {width: 100%; height: auto;}
 .col-50 {width: 50%; height: auto;  }
@@ -153,5 +159,46 @@ header {display:flex; align-items:center; width: 100%; min-height: 100px;}
 
 .carousel img {display: block; width: 120px; height: auto; max-height: 70px; border-radius: 10px;}
 
+.wrapper__movie{display: flex; width:100%; height:auto; gap: 10px; border:1px solid red;}
+
+.wrapper__movie{width: 250px; height: 340px; border-radius: 20px; padding: 15px; border: 1px solid var(--senary-color);}
+
+.movie__content{display: flex; flex-direction: column; align-items: center; width: 100%; height: 100%;}
+
+.movie__img{width: 100%; height: 300px; overflow: hidden; border-radius: 10px; border: 1px solid red;}
+
+.movie__text{width: 100%; height: 40px; border: 1px solid red}
+
+
+
 
 /*==================FOOTER==================*/
+
+
+.wrapper__footer{ display: flex;}
+
+
+form {display: flex; width: 300px; height: 40px; border: 1px solid red;}
+
+.input__box{display: flex; position: relative; border:1px solid red;}
+
+input {outline: none; border: none; height: 100%; background-color: var(--quaternary-color); border: 1px solid red;}
+
+.input__box input{ width: 100%;}
+
+.input__box button{
+
+    
+    display: flex;
+    align-items: center;
+    right: 0;
+    background-color: var(--quinary-color);
+    color: var(--quaternary-color);
+  
+    border: 1px solid red;
+
+}
+
+
+/*====================* RESPONSIVE================== */
+
