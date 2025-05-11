@@ -13,9 +13,12 @@
 
 body, html {font-family: "Montserrat", Arial, Helvetica, sans-serif; line-height: 1; overflow-x: hidden; }
 
+html, body {height: 100%; display: flex; flex-direction: column; margin: 0;}
 
+main {flex:1;}
 
-body {background-color: var(--quinary-color)}
+body {background-color: var(--quinary-color); }
+
 
 
 ul {list-style: none;}
@@ -54,6 +57,8 @@ h3 {font-size: 20px;}
 p { font-size: 12px; color: var(--quaternary-color)}
 a { font-size: 14px; text-decoration: none; color: var(--quaternary-color);}
 
+label{font-size: 12px; color: var(--quaternary-color); }
+
 /*==================GENERAL==================*/
 
 /*main padding*/
@@ -75,7 +80,7 @@ footer {padding: 0 40px 20px 40px; margin-bottom: 0;}
 /* colonne */
 
 .in-flex{display:flex; flex-shrink:0; overflow: hidden;}
-.in-line{display:flex; justify-content: space-between; align-items: center;}
+.in-line{display:flex; justify-content: space-between; }
 .in-colonna{display: flex; flex-direction: column; align-items: left; gap:10px;}
 .social-media{display: flex; justify-content: right; align-items: center; gap: 20px;}
 .al-centro{display: flex; justify-content: center; align-items: center;}
@@ -93,7 +98,7 @@ input {outline: none; border: none; background-color: var(--quaternary-color);bo
 
 input::placeholder{ color: var(--quinary-color);}
 
-
+input{padding: 10px;}
 
 /* animations */
 
@@ -184,18 +189,33 @@ header {display:flex; align-items:center; width: 100%; min-height: 100px;}
 
 
 
+/* Login */
 
+
+.wrapper__login{ width: 400px; height: 350px; padding: 20px; border: 1px solid var(--senary-color); border-radius: 20px; }
+
+.form__login{display: flex; flex-direction: column; align-items: center; width:100%; height: 100%;}
+
+.input__box__login{ display: flex; justify-content: center; width: 100%; height: 50px; margin-top: 10px;}
+
+.input__box__login input{width: 100%;}
+
+.remember-forgot{display: flex; justify-content: space-between; width: 100%; margin-top: 10px;}
+
+.button-login{margin-top: 10px; width: 100%; font-weight: bold;}
+
+.register-link{margin-top: 10px;}
 /*==================FOOTER==================*/
 
 
 .wrapper__footer{ display: flex;}
 
 
-form {display: flex; width: 300px; height: 40px;}
+.form__footer {display: flex; width: 300px; height: 40px;}
 
 .input__box{display: flex; position: relative; width: 100%; height: 100%;}
 
-.input__box input{ width: 100%; height: 100%; padding: 10px;}
+.input__box input{ width: 100%; height: 100%; }
 
 .input__box button{
 
