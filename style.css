@@ -145,6 +145,56 @@ header {display:flex; align-items:center; width: 100%; min-height: 100px;}
 
 .buttons__menu{ display: flex; width: auto; height: 100%; gap: 10px;}
 
+.container__search{ 
+    display: flex;
+    position: relative;
+    width: 46px; 
+    height: 100%;
+    overflow: hidden;
+    transition: width .5s cubic-bezier(0.9, 0, 0.3, 0.9)
+
+}
+
+.container__search:hover{
+    width: 200px;
+}
+.form__search{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.search__input{
+    width: 100%;
+    height: 100%;
+}
+
+
+.container__button__search{
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__button__search button {
+    padding: 0;
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+
+
 
 /*==================MAIN==================*/
 
