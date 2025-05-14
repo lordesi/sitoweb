@@ -41,7 +41,9 @@
         <h2>Trending</h2>
         <span class="span__3"></span>
 
-        <div class="col-100">
+        <div class="col-100 relative">
+            <button class="wrapper__movies__button prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="wrapper__movies__button next"><i class="fas fa-chevron-right"></i></button>
             <div class="wrapper_movies_horiz">
                 <div class="wrapper_movie_horiz">
                     <div class="movie_img_horiz">
@@ -131,5 +133,31 @@
         </div>
 
     </footer>
+    <script>
+
+        const prevButton = document.querySelector('.wrapper__movies__button.prev');
+        const nextButton = document.querySelector('.wrapper__movies__button.next');
+        const movieWrapper = document.querySelector('.wrapper_movies_horiz');
+
+        
+        const movieWidth = 500; 
+
+        
+        prevButton.addEventListener('click', () => {
+        movieWrapper.scrollBy({
+            left: -movieWidth, 
+            behavior: 'smooth' 
+        });
+        });
+
+       
+        nextButton.addEventListener('click', () => {
+        movieWrapper.scrollBy({
+            left: movieWidth,
+            behavior: 'smooth'
+        });
+        });
+
+    </script>
 </body>
 </html>

@@ -136,7 +136,8 @@
         </div>
         <span class="span__1"></span>
         <div class="col-100 relative">
-            <button class="wrapper__movies__button prev"><i></i></button>
+            <button class="wrapper__movies__button prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="wrapper__movies__button next"><i class="fas fa-chevron-right"></i></button>
             <div class="wrapper__movies">
                 <div class="wrapper__movie">
                     <div class="movie__content">
@@ -313,7 +314,6 @@
                     </div>
                 </div>
             </div>
-            <button class="wrapper__movies__button next"><i></i></button>
         </div>
         <span class="span__1"></span>
 
@@ -381,5 +381,29 @@
         </div>
 
     </footer>
+    <script>
+        const prevButton = document.querySelector('.wrapper__movies__button.prev');
+        const nextButton = document.querySelector('.wrapper__movies__button.next');
+        const movieWrapper = document.querySelector('.wrapper__movies');
+
+        
+        const movieWidth = 500; 
+
+        
+        prevButton.addEventListener('click', () => {
+        movieWrapper.scrollBy({
+            left: -movieWidth, 
+            behavior: 'smooth' 
+        });
+        });
+
+       
+        nextButton.addEventListener('click', () => {
+        movieWrapper.scrollBy({
+            left: movieWidth,
+            behavior: 'smooth'
+        });
+        });
+    </script>
 </body>
 </html>
