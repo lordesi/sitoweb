@@ -30,6 +30,32 @@
                 <button class="button-nero"><a href="login.html">Join Us</a></button>
                 <button class="button-bianco"><a href="login.html">Register</a></button>
             </div>
+            <div class="mobile-menu">
+                <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Join Us</a></li>
+                    <li><a href="explore.html">Explore</a></li>
+                </ul>
+                </nav>
+                <div class="buttons__menu">
+                    <div class="container__search">
+                        <form action="" class="form__search">
+                            <input type="text" class="search__input" placeholder="Search...">
+                            <div class="container__button__search">
+                                <button class="button-nero"type="submit"><i class="fas fa-search"></i></button>
+                            </div>
+                            
+                        </form>
+
+                    </div>
+                    <button class="button-nero"><a href="login.html">Join Us</a></button>
+                    <button class="button-bianco"><a href="login.html">Register</a></button>
+                </div>
+            </div>
+            <div class="tendina">
+                <i class="fas fa-bars"></i>
+            </div>
 
         </div>
 
@@ -72,7 +98,7 @@
             </div>
         </div>
 
-
+        <div class="span__1"></div>
     </main>
 
     <footer>
@@ -134,5 +160,10 @@
         </div>
 
     </footer>
+    <script>
+        document.querySelector('.tendina').addEventListener('click', function() {
+        document.querySelector('.mobile-menu').classList.toggle('block');
+        });
+    </script>
 </body>
 </html>
