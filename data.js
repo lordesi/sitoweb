@@ -196,5 +196,72 @@ const moviesData = [
         regia: "David Shore",
         cast: "Freddie Highmore, Antonia Thomas, Hill Harper",
         genere: "Dramma, Medico"
+    },
+    {
+        id: "vpervendetta",
+        title: "V per Vendetta",
+        description: "In un futuro totalitario, un vigilante mascherato noto come 'V' scatena una rivoluzione contro il regime oppressivo. Una giovane donna si unisce alla sua causa per la libertà.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/vpervendetta.jpg",
+        year: "2005",
+        duration: "2h 13m",
+        regia: "James McTeigue",
+        cast: "Natalie Portman, Hugo Weaving",
+        genere: "Azione, Drammatico, Thriller"
+    },
+    {
+        id: "americansniper",
+        title: "American Sniper",
+        description: "La vera storia di Chris Kyle, un cecchino della Marina degli Stati Uniti noto per la sua precisione letale. Combattuto tra dovere e famiglia, affronta le conseguenze psicologiche della guerra.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/americansniper.jpg",
+        year: "2014",
+        duration: "2h 12m",
+        regia: "Clint Eastwood",
+        cast: "Bradley Cooper, Sienna Miller",
+        genere: "Biografico, Guerra, Drammatico"
+    },
+    {
+        id: "fugadaalcatraz",
+        title: "Fuga da Alcatraz",
+        description: "Basato su eventi reali, racconta la storia dell'unica fuga riuscita dalla famigerata prigione di massima sicurezza di Alcatraz, orchestrata da tre detenuti.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/fugadaalcatraz.jpg",
+        year: "1979",
+        duration: "1h 52m",
+        regia: "Don Siegel",
+        cast: "Clint Eastwood, Patrick McGoohan",
+        genere: "Thriller, Drammatico, Crimine"
+    },
+    {
+        id: "interstellar",
+        title: "Interstellar",
+        description: "Un gruppo di astronauti attraversa un wormhole nello spazio nel tentativo di trovare un nuovo pianeta abitabile per l'umanità, in un'epica odissea tra scienza e sentimenti.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/interstellar.jpg",
+        year: "2014",
+        duration: "2h 49m",
+        regia: "Christopher Nolan",
+        cast: "Matthew McConaughey, Anne Hathaway, Jessica Chastain",
+        genere: "Fantascienza, Drammatico, Avventura"
+    },
+    {
+        id: "ilgladiatore",
+        title: "Il Gladiatore",
+        description: "Un generale romano tradito diventa schiavo e poi gladiatore, cercando vendetta contro l'imperatore che ha ucciso la sua famiglia.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/ilgladiatore.jpg",
+        year: "2000",
+        duration: "2h 35m",
+        regia: "Ridley Scott",
+        cast: "Russell Crowe, Joaquin Phoenix",
+        genere: "Storico, Drammatico, Azione"
+    },
+    {
+        id: "ildomanitradinoi",
+        title: "Il Domani tra di Noi",
+        description: "Due estranei sopravvivono a un incidente aereo e devono affrontare la natura selvaggia e le proprie differenze per sopravvivere e tornare alla civiltà.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/ildomanitradinoi.jpg",
+        year: "2017",
+        duration: "1h 52m",
+        regia: "Hany Abu-Assad",
+        cast: "Kate Winslet, Idris Elba",
+        genere: "Avventura, Drammatico, Romantico"
     }
+
 ];
