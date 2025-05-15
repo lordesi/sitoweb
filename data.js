@@ -4,11 +4,11 @@ const moviesData = [
         title: "Designated Survivor",
         description: "Un membro del gabinetto diventa improvvisamente Presidente degli Stati Uniti dopo un attacco che uccide la maggior parte del governo. L'uomo deve imparare rapidamente il nuovo lavoro e a lottare contro gli orrori futuri.",
         imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/designeted.jpg",
-        year: "2025",
+        year: "2016",
         duration: "1h 54m",
-        regia: "Lorenzo De Simone",
-        cast: "Lorenzo De Simone, Davide Mariani",
-        genere: "Thriller, Horror, Drammatico"
+        regia: "Chris Grismer",
+        cast: "Kiefer McLachlan, Natascha McElhone, Italia Ricci",
+        genere: "Drama, Thriller, Action"
     },
     {
         id: "lacasa",
@@ -19,7 +19,7 @@ const moviesData = [
         duration: "1h 50m",
         regia: "Álex Pina",
         cast: "Álvaro Morte, Úrsula Corberó, Pedro Alonso",
-        genere: "Azione, Crimine, Dramma"
+        genere: "Action, Crime, Drama"
     },
     {
         id: "lucifer",
