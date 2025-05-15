@@ -262,6 +262,72 @@ const moviesData = [
         regia: "Hany Abu-Assad",
         cast: "Kate Winslet, Idris Elba",
         genere: "Avventura, Drammatico, Romantico"
+    },
+    {
+        id: "fivenighttat",
+        title: "Five Nights at Freddy's",
+        description: "Un giovane accetta un lavoro come guardia notturna in una pizzeria abbandonata, dove scopre che le mascotte animatroniche prendono vita e diventano letali durante la notte.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/fivenighttat.jpg",
+        year: "2023",
+        duration: "1h 49m",
+        regia: "Emma Tammi",
+        cast: "Josh Hutcherson, Matthew Lillard",
+        genere: "Horror, Thriller, Mistero"
+    },
+    {
+        id: "giustiziaprivata",
+        title: "Giustizia Privata",
+        description: "Dopo che la sua famiglia viene brutalmente uccisa, un uomo decide di vendicarsi del sistema giudiziario corrotto, orchestrando una serie di eventi letali contro chi lo ha deluso.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/giustiziaprivata.jpg",
+        year: "2009",
+        duration: "1h 49m",
+        regia: "F. Gary Gray",
+        cast: "Gerard Butler, Jamie Foxx",
+        genere: "Azione, Crimine, Drammatico"
+    },
+    {
+        id: "insideman",
+        title: "Inside Man",
+        description: "Un detective entra in una sfida mentale con un brillante rapinatore che ha preso in ostaggio una banca. Ma dietro il colpo si nasconde un segreto ancora più profondo.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/insideman.jpg",
+        year: "2006",
+        duration: "2h 09m",
+        regia: "Spike Lee",
+        cast: "Denzel Washington, Clive Owen, Jodie Foster",
+        genere: "Thriller, Crimine, Drammatico"
+    },
+    {
+        id: "redeye",
+        title: "Red Eye",
+        description: "Durante un volo notturno, una donna scopre che il suo vicino di posto è coinvolto in un complotto terroristico e che la sua famiglia è in pericolo se non collabora.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/redeye.jpg",
+        year: "2005",
+        duration: "1h 25m",
+        regia: "Wes Craven",
+        cast: "Rachel McAdams, Cillian Murphy",
+        genere: "Thriller, Mistero"
+    },
+    {
+        id: "theprestige",
+        title: "The Prestige",
+        description: "Due maghi rivali nell’Inghilterra del XIX secolo si sfidano in una battaglia di ingegno e ossessione per creare l’illusione perfetta, a qualsiasi costo.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/theprestige.jpg",
+        year: "2006",
+        duration: "2h 10m",
+        regia: "Christopher Nolan",
+        cast: "Hugh Jackman, Christian Bale, Scarlett Johansson",
+        genere: "Drammatico, Thriller, Mistero"
+    },
+    {
+        id: "vikings",
+        title: "Vikings",
+        description: "Ragnar Lothbrok, un leggendario guerriero norreno, guida i suoi uomini in epiche spedizioni di conquista e lotta per il potere contro re, dei e tradimenti.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/vikings.jpg",
+        year: "2013",
+        duration: "6 stagioni",
+        regia: "Michael Hirst",
+        cast: "Travis Fimmel, Katheryn Winnick",
+        genere: "Storico, Azione, Dramma"
     }
 
 ];
