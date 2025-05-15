@@ -224,7 +224,8 @@ header {display:flex; align-items:center; width: 100%; min-height: 100px;}
 .wrapper__carousel{display: flex; width: max-content; height: 90px; gap: 10px; animation: scroll 15s linear infinite;}
 
 .carousel {display: flex; justify-content:center; align-items: center; min-width: 165px; height: 90px; 
-        border: 1px solid var(--senary-color); border-radius: 20px; overflow: hidden; padding: 10px;}
+        border: 1px solid var(--senary-color); border-radius: 20px; overflow: hidden; padding: 10px;
+}
 
 
 .carousel img {width: 100%; height: 100%; object-fit: unset; border-radius: 10px;}
@@ -335,17 +336,24 @@ body.modal-open { overflow: hidden; }
 
 
 
-.modal-content { display: flex; flex-direction: column; align-items: center;  width: 100%; height: 100%; position: relative;}
+.modal-content { display: flex; flex-direction: column; align-items: stretch;  width: 100%; height: 100%; position: relative;}
 
 
 
-.modal-img-wrapper { width: 100%; height: 60%; border-radius: 20px; overflow: hidden;}
+.modal-img-wrapper { width: 100%; height: auto; border-radius: 20px; overflow: hidden; border: 1px solid red;}
 
 .modal-img-wrapper img { width: 100%; height: auto; object-fit: contain; opacity: 0.6;}
 
 
 
-.cont{display: flex; flex-direction: row;}
+
+.modal-text-wrapper { display: flex; flex-direction: column; align-items: flex-start; width: 100%; height: 60%; margin-top: 30px; gap: 10px; border: 1px solid red;}
+
+.modal-text-wrapper h2 { font-size: 24px; color: var(--quaternary-color);}
+
+.modal-text-wrapper p { font-size: 14px; color: var(--quaternary-color);}
+
+.cont{display: flex; flex-direction: row; border: 1px solid red;}
 
 .description{display: inline-block; width: 60%;}
 
@@ -354,13 +362,6 @@ body.modal-open { overflow: hidden; }
 .info{display: inline-block; width: 36%; vertical-align: bottom; padding-left: 45px;}
 
 .info-s{display: inline-block;  margin-top: 10px;}
-
-
-.modal-text-wrapper { display: flex; flex-direction: column; align-items: left; width: 100%; height: 60%; padding: 15px 20px 20px 20px; gap: 10px;}
-
-.modal-text-wrapper h2 { font-size: 24px; color: var(--quaternary-color);}
-
-.modal-text-wrapper p { font-size: 14px; color: var(--quaternary-color);}
 
 .close {
   position: absolute;
