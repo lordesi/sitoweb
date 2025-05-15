@@ -328,6 +328,61 @@ const moviesData = [
         regia: "Michael Hirst",
         cast: "Travis Fimmel, Katheryn Winnick",
         genere: "Storico, Azione, Dramma"
+    },
+    {
+    id: "it",
+    title: "IT",
+    description: "Un'entità malvagia che assume la forma di un clown chiamato Pennywise terrorizza un gruppo di bambini nella cittadina di Derry, costringendoli ad affrontare le loro peggiori paure.",
+    imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/it.jpg",
+    year: "2017",
+    duration: "2h 15m",
+    regia: "Andy Muschietti",
+    cast: "Bill Skarsgård, Finn Wolfhard, Jaeden Martell",
+    genere: "Horror, Thriller"
+    },
+    {
+        id: "lanonaporta",
+        title: "La Nona Porta",
+        description: "Un mercante di libri rari viene ingaggiato per trovare gli ultimi esemplari di un misterioso volume satanico. Ma la ricerca lo conduce in un viaggio oscuro e pericoloso.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/lanonaporta.jpg",
+        year: "1999",
+        duration: "2h 13m",
+        regia: "Roman Polanski",
+        cast: "Johnny Depp, Lena Olin",
+        genere: "Mistero, Thriller, Horror"
+    },
+    {
+        id: "nessunoneusciravivo",
+        title: "Nessuno Ne Uscirà Vivo",
+        description: "Una giovane immigrata si trasferisce in una pensione fatiscente, ma scopre che il luogo nasconde orrori inspiegabili e una presenza sinistra.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/nessunoneusciravivo.jpg",
+        year: "2021",
+        duration: "1h 25m",
+        regia: "Santiago Menghini",
+        cast: "Cristina Rodlo, Marc Menchaca",
+        genere: "Horror, Thriller"
+    },
+    {
+        id: "scream",
+        title: "Scream",
+        description: "Un serial killer mascherato tormenta un gruppo di adolescenti con telefonate minacciose, spingendoli a seguire le regole dell'horror per sopravvivere.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/scream.jpg",
+        year: "1996",
+        duration: "1h 51m",
+        regia: "Wes Craven",
+        cast: "Neve Campbell, Courteney Cox, David Arquette",
+        genere: "Horror, Mistero"
+    },
+    {
+        id: "theconjuring",
+        title: "The Conjuring",
+        description: "I coniugi Warren, investigatori del paranormale, cercano di aiutare una famiglia tormentata da una presenza oscura nella loro casa colonica.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/theconjuring.jpg",
+        year: "2013",
+        duration: "1h 52m",
+        regia: "James Wan",
+        cast: "Vera Farmiga, Patrick Wilson",
+        genere: "Horror, Thriller"
     }
 
 ];
