@@ -108,5 +108,93 @@ const moviesData = [
         regia: "Aaron Korsh",
         cast: "Gabriel Macht, Patrick J. Adams, Meghan Markle",
         genere: "Dramma, Legale"
+    },
+    {
+        id: "theoffice",
+        title: "The Office",
+        description: "Un finto documentario che racconta la vita quotidiana dei dipendenti della Dunder Mifflin, una società che vende carta. Umorismo assurdo e momenti toccanti si mescolano perfettamente.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/theoffice.jpg",
+        year: "2005",
+        duration: "1h 45m",
+        regia: "Greg Daniels",
+        cast: "Steve Carell, Rainn Wilson, John Krasinski",
+        genere: "Commedia, Mockumentary"
+    },
+    {
+        id: "bigbang",
+        title: "The Big Bang Theory",
+        description: "Un gruppo di brillanti ma socialmente impacciati scienziati affronta la vita quotidiana e le relazioni, tra scienza, geek culture e situazioni comiche.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/bigbang.jpg",
+        year: "2007",
+        duration: "1h 50m",
+        regia: "Chuck Lorre, Bill Prady",
+        cast: "Jim Parsons, Johnny Galecki, Kaley Cuoco",
+        genere: "Commedia, Sitcom"
+    },
+    {
+        id: "brooklyn",
+        title: "Brooklyn Nine-Nine",
+        description: "Un detective brillante ma immaturo lavora in un distretto di polizia di Brooklyn, tra casi criminali e situazioni esilaranti.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/brooklyn.jpg",
+        year: "2013",
+        duration: "1h 45m",
+        regia: "Dan Goor, Michael Schur",
+        cast: "Andy Samberg, Andre Braugher, Terry Crews",
+        genere: "Commedia, Crime"
+    },
+    {
+        id: "drhouse",
+        title: "Dr. House - Medical Division",
+        description: "Il geniale ma antisociale dottor Gregory House guida un team di diagnosti affrontando casi medici complessi e misteriosi.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/drhouse.jpg",
+        year: "2004",
+        duration: "1h 55m",
+        regia: "David Shore",
+        cast: "Hugh Laurie, Omar Epps, Robert Sean Leonard",
+        genere: "Dramma, Medico"
+    },
+    {
+        id: "friends",
+        title: "Friends",
+        description: "Sei amici affrontano la vita, l'amore e il lavoro a New York City, creando momenti iconici e divertenti lungo il percorso.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/friends.jpg",
+        year: "1994",
+        duration: "1h 40m",
+        regia: "David Crane, Marta Kauffman",
+        cast: "Jennifer Aniston, Courteney Cox, Matt LeBlanc",
+        genere: "Commedia, Sitcom"
+    },
+    {
+        id: "gossip",
+        title: "Gossip Girl",
+        description: "Gli scandali e le vite glamour di un gruppo di adolescenti dell'élite di Manhattan vengono svelati da un blog misterioso: Gossip Girl.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/gossip.jpg",
+        year: "2007",
+        duration: "1h 40m",
+        regia: "Josh Schwartz, Stephanie Savage",
+        cast: "Blake Lively, Leighton Meester, Penn Badgley",
+        genere: "Dramma, Teen"
+    },
+    {
+        id: "resident",
+        title: "The Resident",
+        description: "Un giovane medico affronta le dure verità del sistema sanitario americano, tra etica, chirurgia e casi difficili.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/resident.jpg",
+        year: "2018",
+        duration: "1h 50m",
+        regia: "Amy Holden Jones",
+        cast: "Matt Czuchry, Emily VanCamp, Bruce Greenwood",
+        genere: "Dramma, Medico"
+    },
+    {
+        id: "thegood",
+        title: "The Good Doctor",
+        description: "Shaun Murphy, un giovane chirurgo con autismo e sindrome del savant, deve dimostrare le sue straordinarie capacità in un prestigioso ospedale.",
+        imgSrc: "./IMG/IMG-MOVIES-ORIZZONTALI/thegood.jpg",
+        year: "2017",
+        duration: "1h 55m",
+        regia: "David Shore",
+        cast: "Freddie Highmore, Antonia Thomas, Hill Harper",
+        genere: "Dramma, Medico"
     }
 ];
